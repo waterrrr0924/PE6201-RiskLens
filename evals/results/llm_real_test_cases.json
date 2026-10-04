@@ -1,0 +1,426 @@
+[
+  {
+    "id": "AAPL-01",
+    "text": "Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company\u2019s products and services. In addition, consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy, financial market volatility, declines in income or asset values, and other economic factors.",
+    "gold_category": "Market",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 5,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Market",
+      "accepted_category": null,
+      "needs_review": true,
+      "review_reason": "Evidence quote not grounded in input",
+      "severity": "High",
+      "summary": [
+        "Adverse macroeconomic conditions can materially adversely affect demand for the Company\u2019s products and services.",
+        "Consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy."
+      ],
+      "evidence": "can materially adversely affect demand for the Company\u2019s products and services.",
+      "schema_valid": false,
+      "evidence_valid": false,
+      "validation_errors": [
+        "Evidence quote not grounded in input"
+      ],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 1.602,
+      "usage": {
+        "prompt_tokens": 541,
+        "completion_tokens": 74,
+        "total_tokens": 615,
+        "cost": 0.00012555,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00012555,
+          "upstream_inference_prompt_cost": 8.115e-05,
+          "upstream_inference_completions_cost": 4.44e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.00012555
+    }
+  },
+  {
+    "id": "AAPL-02",
+    "text": "Adverse economic conditions can also lead to increased credit and collectibility risk on the Company\u2019s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company\u2019s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company\u2019s financial instruments. These and other impacts can materially adversely affect the Company\u2019s business, results of operations, financial condition and stock price.",
+    "gold_category": "Financial",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 5,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Financial",
+      "accepted_category": "Financial",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "High",
+      "summary": [
+        "Adverse economic conditions can lead to increased credit and collectibility risk on the Company\u2019s trade receivables.",
+        "These and other impacts can materially adversely affect the Company\u2019s business, results of operations, financial condition and stock price."
+      ],
+      "evidence": "These and other impacts can materially adversely affect the Company\u2019s business, results of operations, financial condition and stock price.",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 2.573,
+      "usage": {
+        "prompt_tokens": 548,
+        "completion_tokens": 92,
+        "total_tokens": 640,
+        "cost": 0.0001374,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001374,
+          "upstream_inference_prompt_cost": 8.22e-05,
+          "upstream_inference_completions_cost": 5.52e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.0001374
+    }
+  },
+  {
+    "id": "AAPL-03",
+    "text": "Many of the Company\u2019s operations, retail stores and facilities, as well as critical business operations of the Company\u2019s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects.",
+    "gold_category": "Environmental",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 6,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Environmental",
+      "accepted_category": null,
+      "needs_review": true,
+      "review_reason": "Evidence quote not grounded in input",
+      "severity": "Medium",
+      "summary": [
+        "The Company faces risks from operations located in areas prone to natural disasters.",
+        "Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects."
+      ],
+      "evidence": "Many of the Company\u2019s operations, retail stores and facilities, as well as critical business operations of the Company\u2019s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters.",
+      "schema_valid": false,
+      "evidence_valid": false,
+      "validation_errors": [
+        "Evidence quote not grounded in input"
+      ],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 2.058,
+      "usage": {
+        "prompt_tokens": 521,
+        "completion_tokens": 101,
+        "total_tokens": 622,
+        "cost": 0.00013875,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00013875,
+          "upstream_inference_prompt_cost": 7.815e-05,
+          "upstream_inference_completions_cost": 6.06e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.00013875
+    }
+  },
+  {
+    "id": "AAPL-04",
+    "text": "The Company\u2019s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company\u2019s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company\u2019s business, and harm to the Company\u2019s reputation.",
+    "gold_category": "Operational",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 6,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Operational",
+      "accepted_category": "Operational",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "Medium",
+      "summary": [
+        "Industrial accidents at suppliers and contract manufacturers pose risks to operations.",
+        "An industrial accident could result in serious injuries or disruption to the Company\u2019s business."
+      ],
+      "evidence": "an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company\u2019s business, and harm to the Company\u2019s reputation.",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 2.137,
+      "usage": {
+        "prompt_tokens": 530,
+        "completion_tokens": 83,
+        "total_tokens": 613,
+        "cost": 0.0001293,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001293,
+          "upstream_inference_prompt_cost": 7.95e-05,
+          "upstream_inference_completions_cost": 4.98e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.0001293
+    }
+  },
+  {
+    "id": "AAPL-05",
+    "text": "The Company\u2019s products and services are offered in highly competitive global markets. These markets are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses. These markets are further defined by frequent introduction of new products and services, short product life cycles, evolving industry standards, and rapid adoption of technological advancements.",
+    "gold_category": "Market",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 7,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Market",
+      "accepted_category": "Market",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "Medium",
+      "summary": [
+        "The Company operates in highly competitive global markets characterized by aggressive price competition and downward pressure on gross margins.",
+        "These markets are defined by frequent introduction of new products and services, short product life cycles, and evolving industry standards."
+      ],
+      "evidence": "These markets are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses.",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 2.503,
+      "usage": {
+        "prompt_tokens": 531,
+        "completion_tokens": 99,
+        "total_tokens": 630,
+        "cost": 0.00013905,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00013905,
+          "upstream_inference_prompt_cost": 7.965e-05,
+          "upstream_inference_completions_cost": 5.94e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.00013905
+    }
+  },
+  {
+    "id": "AAPL-06",
+    "text": "The Company experiences malicious attacks and other attempts to gain unauthorized access to its systems on a regular basis.",
+    "gold_category": "Cybersecurity",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 11,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Cybersecurity",
+      "accepted_category": "Cybersecurity",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "Unspecified",
+      "summary": [
+        "The Company faces regular malicious attacks and unauthorized access attempts.",
+        "These incidents highlight ongoing cybersecurity challenges."
+      ],
+      "evidence": "The Company experiences malicious attacks and other attempts to gain unauthorized access to its systems on a regular basis.",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 1.403,
+      "usage": {
+        "prompt_tokens": 472,
+        "completion_tokens": 65,
+        "total_tokens": 537,
+        "cost": 0.0001098,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001098,
+          "upstream_inference_prompt_cost": 7.08e-05,
+          "upstream_inference_completions_cost": 3.9e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.0001098
+    }
+  },
+  {
+    "id": "AAPL-07",
+    "text": "The Company is subject to various claims, legal proceedings and government investigations that have arisen in the ordinary course of business and have not yet been fully resolved, and new matters may arise in the future. In addition, the Company enters into agreements that include indemnification provisions that can subject the Company to costs and damages in the event of a claim against an indemnified third party.",
+    "gold_category": "LegalRegulatory",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 12,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "LegalRegulatory",
+      "accepted_category": null,
+      "needs_review": true,
+      "review_reason": "Evidence quote not grounded in input",
+      "severity": "Medium",
+      "summary": [
+        "The Company faces ongoing legal proceedings and government investigations that may not be resolved.",
+        "Indemnification provisions in agreements could lead to costs and damages from claims against third parties."
+      ],
+      "evidence": "The Company is subject to various claims, legal proceedings and government investigations that have arisen in the ordinary course of business and have not yet been fully resolved.",
+      "schema_valid": false,
+      "evidence_valid": false,
+      "validation_errors": [
+        "Evidence quote not grounded in input"
+      ],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 1.61,
+      "usage": {
+        "prompt_tokens": 526,
+        "completion_tokens": 89,
+        "total_tokens": 615,
+        "cost": 0.0001323,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0001323,
+          "upstream_inference_prompt_cost": 7.89e-05,
+          "upstream_inference_completions_cost": 5.34e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.0001323
+    }
+  },
+  {
+    "id": "AAPL-08",
+    "text": "The Company\u2019s primary exposure to movements in foreign exchange rates relates to non\u2013U.S. dollar\u2013denominated sales, cost of sales and operating expenses worldwide. Gross margins on the Company\u2019s products in foreign countries and on products that include components obtained from foreign suppliers have in the past been adversely affected and could in the future be materially adversely affected by foreign exchange rate fluctuations.",
+    "gold_category": "Financial",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 15,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Financial",
+      "accepted_category": null,
+      "needs_review": true,
+      "review_reason": "Evidence quote not grounded in input",
+      "severity": "High",
+      "summary": [
+        "Foreign exchange rate fluctuations could materially adversely affect gross margins.",
+        "The Company\u2019s primary exposure relates to non-U.S. dollar-denominated sales and costs."
+      ],
+      "evidence": "Gross margins on the Company\u2019s products in foreign countries and on products that include components obtained from foreign suppliers have in the past been adversely affected and could in the future be materially adversely affected by foreign exchange rate fluctuations.",
+      "schema_valid": false,
+      "evidence_valid": false,
+      "validation_errors": [
+        "Evidence quote not grounded in input"
+      ],
+      "engine": "LLM openai/gpt-4o-mini",
+      "latency_seconds": 1.75,
+      "usage": {
+        "prompt_tokens": 536,
+        "completion_tokens": 96,
+        "total_tokens": 632,
+        "cost": 0.000138,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.000138,
+          "upstream_inference_prompt_cost": 8.04e-05,
+          "upstream_inference_completions_cost": 5.76e-05
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      "cost_usd": 0.000138
+    }
+  }
+]

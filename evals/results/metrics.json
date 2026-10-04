@@ -1,0 +1,418 @@
+{
+  "baseline_synthetic_test": {
+    "n": 44,
+    "classifiable_n": 36,
+    "gold_review_n": 8,
+    "raw_accuracy_pct": 69.44,
+    "raw_accuracy_wilson_95_pct": [
+      53.14,
+      82.0
+    ],
+    "majority_class_accuracy_pct": 16.67,
+    "selective_accuracy_pct": 92.0,
+    "accepted_n": 25,
+    "abstained_n": 19,
+    "coverage_pct": 56.82,
+    "correct_accepted_recall_pct": 63.89,
+    "macro_accepted_recall_pct": 63.89,
+    "abstention_rate_pct": 43.18,
+    "review_precision_pct": 36.84,
+    "review_recall_pct": 87.5,
+    "error_catch_precision_pct": 89.47,
+    "error_catch_recall_pct": 89.47,
+    "schema_valid_pct": 100.0,
+    "evidence_valid_pct": 100.0,
+    "api_errors": 0,
+    "total_cost_usd": 0,
+    "mean_latency_seconds": 0.0,
+    "confusion_matrix": {
+      "Operational": {
+        "Operational": 4,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 2,
+        "ERROR": 0
+      },
+      "Cybersecurity": {
+        "Operational": 0,
+        "Cybersecurity": 2,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 4,
+        "ERROR": 0
+      },
+      "LegalRegulatory": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 6,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Financial": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 4,
+        "Market": 1,
+        "Environmental": 0,
+        "REVIEW": 1,
+        "ERROR": 0
+      },
+      "Market": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 4,
+        "Environmental": 0,
+        "REVIEW": 2,
+        "ERROR": 0
+      },
+      "Environmental": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 3,
+        "REVIEW": 3,
+        "ERROR": 0
+      },
+      "REVIEW": {
+        "Operational": 0,
+        "Cybersecurity": 1,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 7,
+        "ERROR": 0
+      }
+    },
+    "dataset_sha256": "13710bf2331699f4bd41abd1eb12763c5bb1ddfaf2ccd1096d3482f31f6ee6ec",
+    "engine": "baseline",
+    "model": null,
+    "run_utc": "2026-10-04T13:22:21Z",
+    "prompt_sha256": "ea27ebcff63c0282cd2b93a600e71d1124fd07c0fd3c986030c01a3015b00b97"
+  },
+  "baseline_real_test": {
+    "n": 8,
+    "classifiable_n": 8,
+    "gold_review_n": 0,
+    "raw_accuracy_pct": 50.0,
+    "raw_accuracy_wilson_95_pct": [
+      21.52,
+      78.48
+    ],
+    "majority_class_accuracy_pct": 25.0,
+    "selective_accuracy_pct": 66.67,
+    "accepted_n": 6,
+    "abstained_n": 2,
+    "coverage_pct": 75.0,
+    "correct_accepted_recall_pct": 50.0,
+    "macro_accepted_recall_pct": 50.0,
+    "abstention_rate_pct": 25.0,
+    "review_precision_pct": 0.0,
+    "review_recall_pct": null,
+    "error_catch_precision_pct": 100.0,
+    "error_catch_recall_pct": 50.0,
+    "schema_valid_pct": 100.0,
+    "evidence_valid_pct": 100.0,
+    "api_errors": 0,
+    "total_cost_usd": 0,
+    "mean_latency_seconds": 0.0,
+    "confusion_matrix": {
+      "Operational": {
+        "Operational": 1,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Cybersecurity": {
+        "Operational": 0,
+        "Cybersecurity": 1,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "LegalRegulatory": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 1,
+        "ERROR": 0
+      },
+      "Financial": {
+        "Operational": 1,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 1,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Market": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 1,
+        "Market": 1,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Environmental": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 1,
+        "ERROR": 0
+      },
+      "REVIEW": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      }
+    },
+    "dataset_sha256": "b425476cef44898882509aab07b209d7a972ef61750df928728b1dbfe64091e9",
+    "engine": "baseline",
+    "model": null,
+    "run_utc": "2026-10-04T13:24:51Z",
+    "prompt_sha256": "ea27ebcff63c0282cd2b93a600e71d1124fd07c0fd3c986030c01a3015b00b97"
+  },
+  "llm_synthetic_test": {
+    "n": 44,
+    "classifiable_n": 36,
+    "gold_review_n": 8,
+    "raw_accuracy_pct": 100.0,
+    "raw_accuracy_wilson_95_pct": [
+      90.36,
+      100.0
+    ],
+    "majority_class_accuracy_pct": 16.67,
+    "selective_accuracy_pct": 100.0,
+    "accepted_n": 36,
+    "abstained_n": 8,
+    "coverage_pct": 81.82,
+    "correct_accepted_recall_pct": 100.0,
+    "macro_accepted_recall_pct": 100.0,
+    "abstention_rate_pct": 18.18,
+    "review_precision_pct": 100.0,
+    "review_recall_pct": 100.0,
+    "error_catch_precision_pct": 100.0,
+    "error_catch_recall_pct": 100.0,
+    "schema_valid_pct": 93.18,
+    "evidence_valid_pct": 100.0,
+    "api_errors": 0,
+    "total_cost_usd": 0.0047301,
+    "mean_latency_seconds": 1.768,
+    "confusion_matrix": {
+      "Operational": {
+        "Operational": 6,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Cybersecurity": {
+        "Operational": 0,
+        "Cybersecurity": 6,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "LegalRegulatory": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 6,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Financial": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 6,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Market": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 6,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Environmental": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 6,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "REVIEW": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 8,
+        "ERROR": 0
+      }
+    },
+    "dataset_sha256": "13710bf2331699f4bd41abd1eb12763c5bb1ddfaf2ccd1096d3482f31f6ee6ec",
+    "engine": "llm",
+    "model": "openai/gpt-4o-mini",
+    "run_utc": "2026-10-04T13:24:54Z",
+    "prompt_sha256": "ea27ebcff63c0282cd2b93a600e71d1124fd07c0fd3c986030c01a3015b00b97"
+  },
+  "llm_real_test": {
+    "n": 8,
+    "classifiable_n": 8,
+    "gold_review_n": 0,
+    "raw_accuracy_pct": 100.0,
+    "raw_accuracy_wilson_95_pct": [
+      67.56,
+      100.0
+    ],
+    "majority_class_accuracy_pct": 25.0,
+    "selective_accuracy_pct": 100.0,
+    "accepted_n": 4,
+    "abstained_n": 4,
+    "coverage_pct": 50.0,
+    "correct_accepted_recall_pct": 50.0,
+    "macro_accepted_recall_pct": 50.0,
+    "abstention_rate_pct": 50.0,
+    "review_precision_pct": 0.0,
+    "review_recall_pct": null,
+    "error_catch_precision_pct": 0.0,
+    "error_catch_recall_pct": null,
+    "schema_valid_pct": 50.0,
+    "evidence_valid_pct": 50.0,
+    "api_errors": 0,
+    "total_cost_usd": 0.00105015,
+    "mean_latency_seconds": 1.954,
+    "confusion_matrix": {
+      "Operational": {
+        "Operational": 1,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "Cybersecurity": {
+        "Operational": 0,
+        "Cybersecurity": 1,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      },
+      "LegalRegulatory": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 1,
+        "ERROR": 0
+      },
+      "Financial": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 1,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 1,
+        "ERROR": 0
+      },
+      "Market": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 1,
+        "Environmental": 0,
+        "REVIEW": 1,
+        "ERROR": 0
+      },
+      "Environmental": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 1,
+        "ERROR": 0
+      },
+      "REVIEW": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0,
+        "REVIEW": 0,
+        "ERROR": 0
+      }
+    },
+    "dataset_sha256": "b425476cef44898882509aab07b209d7a972ef61750df928728b1dbfe64091e9",
+    "engine": "llm",
+    "model": "openai/gpt-4o-mini",
+    "run_utc": "2026-10-04T13:25:09Z",
+    "prompt_sha256": "ea27ebcff63c0282cd2b93a600e71d1124fd07c0fd3c986030c01a3015b00b97"
+  }
+}

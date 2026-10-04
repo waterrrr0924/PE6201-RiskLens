@@ -1,0 +1,306 @@
+[
+  {
+    "id": "AAPL-01",
+    "text": "Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company\u2019s products and services. In addition, consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy, financial market volatility, declines in income or asset values, and other economic factors.",
+    "gold_category": "Market",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 5,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Financial",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "High",
+      "summary": [
+        "Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely ",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely ",
+      "scores": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 3,
+        "Market": 2,
+        "Environmental": 0
+      },
+      "engine": "keyword baseline",
+      "accepted_category": "Financial",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  },
+  {
+    "id": "AAPL-02",
+    "text": "Adverse economic conditions can also lead to increased credit and collectibility risk on the Company\u2019s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company\u2019s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company\u2019s financial instruments. These and other impacts can materially adversely affect the Company\u2019s business, results of operations, financial condition and stock price.",
+    "gold_category": "Financial",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 5,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Financial",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "High",
+      "summary": [
+        "Adverse economic conditions can also lead to increased credit and collectibility risk on the Company\u2019s trade receivables; the failure of derivative counterparties and other financi",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "Adverse economic conditions can also lead to increased credit and collectibility risk on the Company\u2019s trade receivables; the failure of derivative counterparties and other financi",
+      "scores": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 3,
+        "Market": 0,
+        "Environmental": 0
+      },
+      "engine": "keyword baseline",
+      "accepted_category": "Financial",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  },
+  {
+    "id": "AAPL-03",
+    "text": "Many of the Company\u2019s operations, retail stores and facilities, as well as critical business operations of the Company\u2019s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects.",
+    "gold_category": "Environmental",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 6,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Operational",
+      "needs_review": true,
+      "review_reason": "No matching terms or tied category scores",
+      "severity": "Unspecified",
+      "summary": [
+        "Many of the Company\u2019s operations, retail stores and facilities, as well as critical business operations of the Company\u2019s suppliers and contract manufacturers, are in locations that",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "Many of the Company\u2019s operations, retail stores and facilities, as well as critical business operations of the Company\u2019s suppliers and contract manufacturers, are in locations that",
+      "scores": {
+        "Operational": 2,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 2
+      },
+      "engine": "keyword baseline",
+      "accepted_category": null,
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  },
+  {
+    "id": "AAPL-04",
+    "text": "The Company\u2019s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company\u2019s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company\u2019s business, and harm to the Company\u2019s reputation.",
+    "gold_category": "Operational",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 6,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Operational",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "Medium",
+      "summary": [
+        "The Company\u2019s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company\u2019s suppliers are required to maintain s",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "The Company\u2019s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company\u2019s suppliers are required to maintain s",
+      "scores": {
+        "Operational": 2,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0
+      },
+      "engine": "keyword baseline",
+      "accepted_category": "Operational",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  },
+  {
+    "id": "AAPL-05",
+    "text": "The Company\u2019s products and services are offered in highly competitive global markets. These markets are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses. These markets are further defined by frequent introduction of new products and services, short product life cycles, evolving industry standards, and rapid adoption of technological advancements.",
+    "gold_category": "Market",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 7,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Market",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "Unspecified",
+      "summary": [
+        "The Company\u2019s products and services are offered in highly competitive global markets. These markets are characterized by aggressive price competition, downward pressure on gross ma",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "The Company\u2019s products and services are offered in highly competitive global markets. These markets are characterized by aggressive price competition, downward pressure on gross ma",
+      "scores": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 1,
+        "Environmental": 0
+      },
+      "engine": "keyword baseline",
+      "accepted_category": "Market",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  },
+  {
+    "id": "AAPL-06",
+    "text": "The Company experiences malicious attacks and other attempts to gain unauthorized access to its systems on a regular basis.",
+    "gold_category": "Cybersecurity",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 11,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Cybersecurity",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "Unspecified",
+      "summary": [
+        "The Company experiences malicious attacks and other attempts to gain unauthorized access to its systems on a regular basis.",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "The Company experiences malicious attacks and other attempts to gain unauthorized access to its systems on a regular basis.",
+      "scores": {
+        "Operational": 0,
+        "Cybersecurity": 1,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0
+      },
+      "engine": "keyword baseline",
+      "accepted_category": "Cybersecurity",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  },
+  {
+    "id": "AAPL-07",
+    "text": "The Company is subject to various claims, legal proceedings and government investigations that have arisen in the ordinary course of business and have not yet been fully resolved, and new matters may arise in the future. In addition, the Company enters into agreements that include indemnification provisions that can subject the Company to costs and damages in the event of a claim against an indemnified third party.",
+    "gold_category": "LegalRegulatory",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 12,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Operational",
+      "needs_review": true,
+      "review_reason": "No matching terms or tied category scores",
+      "severity": "Unspecified",
+      "summary": [
+        "The Company is subject to various claims, legal proceedings and government investigations that have arisen in the ordinary course of business and have not yet been fully resolved, ",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "The Company is subject to various claims, legal proceedings and government investigations that have arisen in the ordinary course of business and have not yet been fully resolved, ",
+      "scores": {
+        "Operational": 0,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0
+      },
+      "engine": "keyword baseline",
+      "accepted_category": null,
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  },
+  {
+    "id": "AAPL-08",
+    "text": "The Company\u2019s primary exposure to movements in foreign exchange rates relates to non\u2013U.S. dollar\u2013denominated sales, cost of sales and operating expenses worldwide. Gross margins on the Company\u2019s products in foreign countries and on products that include components obtained from foreign suppliers have in the past been adversely affected and could in the future be materially adversely affected by foreign exchange rate fluctuations.",
+    "gold_category": "Financial",
+    "gold_review": false,
+    "split": "test",
+    "source": "Apple 2025 Form 10-K",
+    "source_url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+    "printed_page": 15,
+    "label_provenance": "AI-assisted provisional label; not independently human-validated",
+    "prediction": {
+      "category": "Operational",
+      "needs_review": false,
+      "review_reason": "",
+      "severity": "High",
+      "summary": [
+        "The Company\u2019s primary exposure to movements in foreign exchange rates relates to non\u2013U.S. dollar\u2013denominated sales, cost of sales and operating expenses worldwide. Gross margins on",
+        "Read the original paragraph to confirm the disclosure."
+      ],
+      "evidence": "The Company\u2019s primary exposure to movements in foreign exchange rates relates to non\u2013U.S. dollar\u2013denominated sales, cost of sales and operating expenses worldwide. Gross margins on",
+      "scores": {
+        "Operational": 2,
+        "Cybersecurity": 0,
+        "LegalRegulatory": 0,
+        "Financial": 0,
+        "Market": 0,
+        "Environmental": 0
+      },
+      "engine": "keyword baseline",
+      "accepted_category": "Operational",
+      "schema_valid": true,
+      "evidence_valid": true,
+      "validation_errors": [],
+      "latency_seconds": 0,
+      "usage": {},
+      "cost_usd": 0
+    }
+  }
+]
