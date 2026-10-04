@@ -1,0 +1,2 @@
+# Runtime and evaluation use Python 3.10+ standard library only.
+# Optional PDF-to-text preparation: pip install pypdf
