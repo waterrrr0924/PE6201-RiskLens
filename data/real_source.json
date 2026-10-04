@@ -1,0 +1,56 @@
+{
+  "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+  "sha256": "3eb270b22acb7d8d8e9c32a43dc221dec3345f8e4bca02755fdbc1ee16c823de",
+  "pdf_pages": 80,
+  "extraction": "pypdf pages[5:18], whitespace normalized",
+  "ranges": [
+    [
+      116,
+      120,
+      "Market",
+      5
+    ],
+    [
+      125,
+      128,
+      "Financial",
+      5
+    ],
+    [
+      167,
+      169,
+      "Environmental",
+      6
+    ],
+    [
+      177,
+      179,
+      "Operational",
+      6
+    ],
+    [
+      195,
+      198,
+      "Market",
+      7
+    ],
+    [
+      424,
+      425,
+      "Cybersecurity",
+      11
+    ],
+    [
+      462,
+      465,
+      "LegalRegulatory",
+      12
+    ],
+    [
+      633,
+      636,
+      "Financial",
+      15
+    ]
+  ]
+}
